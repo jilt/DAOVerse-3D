@@ -7,13 +7,18 @@ NFT smart contract deployed on BitFinity testnet, [info and demo here](https://g
 
 ## Done
 1)remote chat and avatar interactions
+
 2)3D shared real time rooms
+
 3)room customization (pwd ICP)
+
 4)avatar customization (ready player me)
+
 5)3D furniture marketplace UI
 
 ## To Do
 1)metamask wallet login 
+
 2)NFT ownership gating for marketplace
 
 ## ICP Land Hackathon Project
