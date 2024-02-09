@@ -6,15 +6,15 @@ If the [websocket](https://github.com/jilt/ICP-land-websocket) instance is offli
 NFT smart contract deployed on BitFinity testnet, [info and demo here](https://github.com/jilt/ICP-Land-NFT-Market)
 
 ## Done
-_remote chat and avatar interactions
-_3D shared real time rooms
-_room customization (pwd ICP)
-_avatar customization (ready player me)
-_3D furniture marketplace UI
+1)remote chat and avatar interactions
+2)3D shared real time rooms
+3)room customization (pwd ICP)
+4)avatar customization (ready player me)
+5)3D furniture marketplace UI
 
 ## To Do
-_metamask wallet login 
-_NFT ownership gating for marketplace
+1)metamask wallet login 
+2)NFT ownership gating for marketplace
 
 ## ICP Land Hackathon Project
 _video demo
