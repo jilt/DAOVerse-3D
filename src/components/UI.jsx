@@ -18,7 +18,7 @@ export const avatarUrlAtom = atom(
 const PasswordInput = ({ onClose, onSuccess }) => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  // TODO: To make things properly we should have a loading state 😊
+  // TODO: To make things properly we should have a loading state
   // replace password with NFT ownership check
 
   const checkPassword = () => {
