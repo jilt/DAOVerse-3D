@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.5.2 .\public\models\Tablet.glb
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function Tablet(props) {
   const { nodes, materials } = useGLTF('/Tablet.glb')
   return (
     <group {...props} dispose={null}>

@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.5.2 .\public\models\Skyscraper.glb
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function Skyscraper(props) {
   const { nodes, materials } = useGLTF('/Skyscraper.glb')
   return (
     <group {...props} dispose={null}>
