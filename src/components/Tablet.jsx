@@ -10,16 +10,10 @@ export function Tablet(props) {
   const { nodes, materials } = useGLTF('/models/Tablet.glb')
   return (
     <group {...props} dispose={null}>
-      <group position={[0, 7.745, 0]} rotation={[-Math.PI, 0, Math.PI / 2]} scale={253.645}>
-        <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-          <group position={[0, 1.837, 0]} rotation={[-Math.PI / 2, -Math.PI / 2, 0]} scale={100}>
-            <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_1.geometry} material={materials['01___Default']} />
-            <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_2.geometry} material={materials['02___Default']} />
-            <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_3.geometry} material={materials['04___Default']} />
-          </group>
-          <mesh geometry={nodes.LP2_uv_checker_material_uv_grid_4096x4096_0.geometry} material={materials['03___Default']} position={[0, 1.837, 0]} rotation={[-Math.PI / 2, -Math.PI / 2, 0]} scale={100} />
-        </group>
-      </group>
+      <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_1.geometry} material={materials['01___Default']} />
+      <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_2.geometry} material={materials['02___Default']} />
+      <mesh geometry={nodes.LP1_uv_checker_material_uv_grid_4096x4096_0_3.geometry} material={materials['04___Default']} />
+      <mesh geometry={nodes.LP2_uv_checker_material_uv_grid_4096x4096_0.geometry} material={materials['03___Default']} />
     </group>
   )
 }
