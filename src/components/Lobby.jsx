@@ -67,7 +67,7 @@ export const Lobby = () => {
     <group position-y={-1.5}>
       <motion.group
         ref={tablet}
-        scale={isMobile ? 0.20 : 0.24}
+        scale={isMobile ? 0.18 : 0.22}
         position-x={isMobile ? 0 : -0.25 * goldenRatio}
         position-z={0.5}
         initial={{
@@ -86,7 +86,7 @@ export const Lobby = () => {
           firstLoad = false;
         }}
       >
-        <Tablet scale={0.03} rotation-x={Math.PI / 2} />
+        <Tablet scale={0.04} rotation-x={Math.PI / 2} />
         <Html
           position={[0, 0.17, 0.11]}
           transform={!isSafari}
