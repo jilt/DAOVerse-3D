@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Skyscraper(props) {
-  const { nodes, materials } = useGLTF('/Skyscraper.glb')
+  const { nodes, materials } = useGLTF('/models/Skyscraper.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0, -0.491, 0]} scale={1.849}>

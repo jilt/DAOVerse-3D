@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Tablet(props) {
-  const { nodes, materials } = useGLTF('/Tablet.glb')
+  const { nodes, materials } = useGLTF('/models/Tablet.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0, 7.745, 0]} rotation={[-Math.PI, 0, Math.PI / 2]} scale={253.645}>
