@@ -88,7 +88,7 @@ export const Lobby = () => {
       >
         <Tablet scale={0.031} rotation-x={Math.PI / 2} />
         <Html
-          position={[0.1, 0.15, 0.12]}
+          position={[0.05, 0.15, 0.12]}
           transform={!isSafari}
           center
           scale={0.121}
