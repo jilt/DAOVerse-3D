@@ -67,7 +67,7 @@ export const Lobby = () => {
     <group position-y={-1.5}>
       <motion.group
         ref={tablet}
-        scale={isMobile ? 0.18 : 0.22}
+        scale={isMobile ? 0.20 : 0.24}
         position-x={isMobile ? 0 : -0.25 * goldenRatio}
         position-z={0.5}
         initial={{
@@ -104,7 +104,7 @@ export const Lobby = () => {
               <h1 className="text-center text-white text-2xl font-bold">
                 WELCOME TO
                 <br />
-                ICP Land
+                DAOVerse
               </h1>
               <p className="text-center text-white">
                 Please select your room
@@ -144,7 +144,7 @@ export const Lobby = () => {
           bevelThickness={0.005}
           letterSpacing={0.012}
         >
-          ICP
+          DAO
           <meshStandardMaterial color="white" />
         </Text3D>
 
@@ -159,7 +159,7 @@ export const Lobby = () => {
           bevelThickness={0.005}
           letterSpacing={0.012}
         >
-          Land
+          Verse
           <meshStandardMaterial color="white" />
         </Text3D>
               <Skyscraper scale={1.32} rotation-y={-165} position-y={-0.3} />
