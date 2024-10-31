@@ -129,7 +129,6 @@ export const UI = () => {
             }}
           />
          )}
-        // replace with NFT ownership check
         {passwordMode && (
           <PasswordInput
             onClose={() => setPasswordMode(false)}
