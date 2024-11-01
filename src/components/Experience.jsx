@@ -80,15 +80,15 @@ export const Experience = ({ loaded }) => {
         sunPosition={[5, 8, 20]}
         inclination={0}
         azimuth={0.25}
-        rayleigh={0.1}
+        rayleigh={0.2}
       />
-      <Environment files={"/textures/venice_sunset_1k.hdr"} />
+      <Environment files={"/textures/vaporwave.hdr"} />
 
-      <ambientLight intensity={0.1} />
+      <ambientLight intensity={0.2} />
       <directionalLight
         position={[4, 4, -4]}
         castShadow
-        intensity={0.35}
+        intensity={0.45}
         shadow-mapSize={[1024, 1024]}
       >
         <orthographicCamera
