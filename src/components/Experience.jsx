@@ -82,7 +82,7 @@ export const Experience = ({ loaded }) => {
         azimuth={0.25}
         rayleigh={0.1}
       />
-      <Environment files={"/textures/vaporwave.hdr"} />
+      <Environment files={"/textures/venice_sunset_1k.hdr"} />
 
       <ambientLight intensity={0.1} />
       <directionalLight
