@@ -162,7 +162,7 @@ export const Lobby = () => {
           Verse
           <meshStandardMaterial color="white" />
         </Text3D>
-              <Skyscraper scale={1.32} rotation-y={-155} position-y={-0.3} />
+              <Skyscraper scale={1.32} rotation-y={-175} position-y={-0.3} />
         <Skyscraper scale={1} position-x={-3} position-z={-1} />
         <Skyscraper scale={0.8} position-x={3} position-z={-0.5} />
       </group>
