@@ -41,7 +41,7 @@ export const Lobby = () => {
         alphaTest={0.85}
         scale={50}
         position={[0, 0, 0]}
-        color="pink"
+        color="purple"
       >
         <RandomizedLight
           amount={4}
@@ -162,7 +162,7 @@ export const Lobby = () => {
           Verse
           <meshStandardMaterial color="white" />
         </Text3D>
-              <Skyscraper scale={1.32} rotation-y={-165} position-y={-0.3} />
+              <Skyscraper scale={1.32} rotation-y={-155} position-y={-0.3} />
         <Skyscraper scale={1} position-x={-3} position-z={-1} />
         <Skyscraper scale={0.8} position-x={3} position-z={-0.5} />
       </group>
