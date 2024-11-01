@@ -163,7 +163,7 @@ export const Lobby = () => {
           <meshStandardMaterial color="white" />
         </Text3D>
               <Skyscraper scale={1.32} rotation-y={-170} position-y={-0.3} />
-        <Skyscraper scale={1} position-x={-3} position-z={-1} />
+        <Skyscraper scale={1} rotation-y={-10} position-x={-3} position-z={-1} />
         <Skyscraper scale={0.8} position-x={3} position-z={-0.5} />
       </group>
       {accumulativeShadows}
