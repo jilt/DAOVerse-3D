@@ -84,11 +84,11 @@ export const Experience = ({ loaded }) => {
       />
       <Environment files={"/textures/vaporwave.hdr"} />
 
-      <ambientLight intensity={0.2} />
+      <ambientLight intensity={0.3} />
       <directionalLight
         position={[4, 4, -4]}
         castShadow
-        intensity={0.45}
+        intensity={0.55}
         shadow-mapSize={[1024, 1024]}
       >
         <orthographicCamera

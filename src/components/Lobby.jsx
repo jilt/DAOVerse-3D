@@ -41,7 +41,7 @@ export const Lobby = () => {
         alphaTest={0.85}
         scale={50}
         position={[0, 0, 0]}
-        color="pink"
+        color="purple"
       >
         <RandomizedLight
           amount={4}
